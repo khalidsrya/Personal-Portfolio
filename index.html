@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Khalid Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Khaleed</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#about" onclick="select()">About</a></li>
+                    <li><a href="#skills" onclick="select()">Skills</a></li>
+                    <li><a href="#experience" onclick="select()">Experiences</a></li>
+                    <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="select()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- section Beranda -->
+    <section id="Beranda" class="Beranda">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Khalid Surya</h1>
+            <h2>Web Developer - UI/UX Designer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section about -->
+    <section id="about" class="about">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hallo, i'm Khalid.</span> a man with a strong passion for UI Design and Web Development. Skilled in creating visually appealing and user-friendly interfaces. Proficient in HTML, CSS, and JavaScript. Actively seeking opportunities to enhance my skills and knowledge in UI Design and Web Development through internships and projects. Committed to delivering high-quality solutions and continuously staying updated with the latest industry trends. Excellent problem-solving and collaboration abilities. Looking forward to contributing my skills and creativity to create engaging digital experiences.</p>
+
+            <div class="fila">
+                <!-- Personal -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Born</strong>
+                            09-06-2001
+                        </li>
+                        <li>
+                            <strong>Handphone</strong>
+                            082374562879
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            khalidsurya230@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Gg. Damai, Langkapura
+                        </li>
+                        <li>
+                            <strong>Job</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- interests -->
+                <div class="col">
+                    <h3>Interest</h3>
+                    <div class="container-interests">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>HEAKING</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTO</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="https://docs.google.com/document/d/1DNLvbe0xMvAMWL-67KGGbzr8Zqfehnp5hXidW6-dsXU/edit?usp=sharing" download>
+                  <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                  </button>
+                </a>
+              </div>
+    </section>
+
+    <!-- section SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Reseach</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem Solving</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Collaboration</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section experience -->
+    <section id="experience" class="experience">
+        <div class="content-section">
+            <h2>Experience</h2>
+            <div class="fila">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Academic Qualifications</h4>
+                        <span class="place">University of Lampung</span>
+                        <span class="date">2020 - Now</span>
+                        <p>
+                            Studies in the Informatics Engineering, I chose to specialize in Software Engineering (RPL). I learned about software development methodologies, system design and analysis, advanced programming, as well as software testing and maintenance.</p>
+                        <div class="connect">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Independent Study</h4>
+                        <span class="place">Binar Academy</span>
+                        <span class="date">August 2022 - December 2022</span>
+                        <p>Created a product design in the form of a mobile application and websites And Built agricultural digital products with the Product Management division, Conducted product research and product redesign adn Conducted usability testing.
+                            </p>
+                        <div class="connect">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Independent Study</h4>
+                        <span class="place">Dicoding Indonesia</span>
+                        <span class="date">February 2023 - June 2023</span>
+                        <p>Finished various tasks and classes related to front-end and back-end activities at Dicoding, using HTML, CSS, Javascript and etc. Collaborated with the team to create a website application called "Cat Solution" that provides informative information about cats.</p>
+                        <div class="connect">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Professional</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="place">Ardilia Nugraha Safetya</span>
+                        <span class="date">December 2022 - February 2023</span>
+                        <p>Created and Managed a Company Information System website that displayed business product information and Wrote informative content and articles to be displayed on the website and Optimized website content and ensured a good website structure.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>UI/UX Researcher Designer</h4>
+                        <span class="place">Niagahoster</span>
+                        <span class="date">June 2022 - July 2022</span>
+                        <p>Finished various tasks related to UI/UX Designer activities at Niagahoster, such as Design Thinking, User and Product Research, Wireframing, and Prototyping ,also Worked on the Hosting Payment Checkout Page on the Niagahoster Website.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>UX Researcher</h4>
+                        <span class="place">Telkom Amoeba</span>
+                        <span class="date">July 2022 - August 2022</span>
+                        <p>Finished various tasks related to UX Designer activities at Telkom Amoeba, such as Design Thinking, User and Product Research, Wireframing, and Prototyping ,also Worked on the Hosting Payment Checkout Page on the Telkom Amoeba Website.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="project">
+                    <a href="http://ardilianugraha.site/">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Website</h3>
+                        <p>Company Profile</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://dribbble.com/shots/20922796-Heawell-Healthy-Program-Apps-by-Khalid-Surya">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>UI Design</h3>
+                        <p>Healthy Program</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://dribbble.com/shots/20923949-Gamatechno-Challenge">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Redesign</h3>
+                        <p>Worxspace.id</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://dribbble.com/shots/20923754-UI-IX-STUDY-CASE-ECOMMERCE-APP">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>UI Design</h3>
+                        <p>Electronic Commerce</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://catsolution.netlify.app/">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Website</h3>
+                        <p>Cat Solution</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <a href="https://dribbble.com/shots/20923358-Delicious-Mobile-Cake-App">
+                    <img src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>UI/UX Research & Design</h3>
+                        <p>Delicious</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>Contact</h2>
+            <div class="fila">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Handphone">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Title">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Massage"></textarea>
+                    <button>
+                        Contact<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Map -->
+                <div class="col">
+                    <img src="img/Map.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Gg. Damai 35, Bandar Lampung
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                082374562789
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                khalidsurya230@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#Beranda" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
